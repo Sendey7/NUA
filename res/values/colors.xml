@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <color name="TitleProgramNUA">#0f3272</color>
+        <color name="titlebackgroundcolor">#0f3272</color>
+        <color name="titletextcolor">#FFFFFF</color>
+        <color name="t_mark">#8b0000</color>
+    </resources>

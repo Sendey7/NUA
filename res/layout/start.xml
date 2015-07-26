@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:background="@drawable/gradient_linear"
+      android:clickable="false"
+      android:duplicateParentState="false"
+      android:longClickable="false"
+      android:orientation="vertical"
+      android:scrollbarAlwaysDrawVerticalTrack="false" >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1" >
+
+          <ImageView
+              android:id="@+id/imageView1"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:layout_gravity="left"
+              android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              android:layout_marginTop="7dp"
+              android:paddingTop="7dp"
+              android:src="@drawable/logo60" />
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginRight="10dp"
+              android:layout_marginTop="6dp"
+              android:layout_weight="0"
+              android:orientation="vertical" >
+
+              <TextView
+                  android:id="@+id/tvSublect"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="left"
+                  android:layout_marginTop="1dp"
+                  android:text="Образование. Интеллигентность. Культура"
+                  android:textColor="@color/TitleProgramNUA"
+                  android:textSize="9sp"
+                  android:typeface="serif" />
+
+              <TextView
+                  android:id="@+id/text_login_pass"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="left"
+                  android:layout_marginTop="5dp"
+                  android:text="Народная Украинская Академия"
+                  android:textColor="@color/TitleProgramNUA"
+                  android:textSize="14sp"
+                  android:textStyle="bold"
+                  android:typeface="serif" />
+
+              <TextView
+                  android:id="@+id/tvm1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="left|right"
+                  android:layout_marginTop="2dp"
+                  android:text="г. Харьков"
+                  android:textColor="@color/TitleProgramNUA"
+                  android:textSize="9sp"
+                  android:typeface="serif" />
+          </LinearLayout>
+      </LinearLayout>
+
+      <ImageView
+          android:id="@+id/imageView2"
+          android:layout_width="fill_parent"
+          android:layout_height="2dp"
+          android:background="@color/TitleProgramNUA" />
+      
+      <ListView
+          android:id="@+id/Start_listView"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="18"
+          android:cacheColorHint="#00000000"
+          android:divider="#0f3272"
+          android:dividerHeight="2dp"
+          android:footerDividersEnabled="true"
+          android:headerDividersEnabled="true"
+          android:listSelector="@drawable/listselector" >
+
+      </ListView>
+
+      <TextView
+          android:id="@+id/contacts_textView"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:paddingLeft="15dp"
+          android:text=""
+          android:textSize="10sp" />
+
+  </LinearLayout>

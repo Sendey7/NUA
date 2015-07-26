@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NUA</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main_activity_nua2">СЭПШ ХГУ \"НУА\"</string>
+    <string name="download_butt">Загрузить</string>
+    <string name="login_butt">Войти</string>
+    <string name="login_user">Логин:</string>
+    <string name="login_pass">Пароль:</string>
+</resources>

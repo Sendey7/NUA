@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_linear"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvlname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="TextView"
+        android:textColor="@color/TitleProgramNUA"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tvfname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="TextView"
+            android:textColor="@color/TitleProgramNUA"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvmname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="TextView"
+            android:textColor="@color/TitleProgramNUA"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10" >
+
+        <Button
+            android:id="@+id/btnPrev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="&lt;" />
+
+        <TextView
+            android:id="@+id/tvDateStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="right"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="/" />
+
+        <TextView
+            android:id="@+id/tvDateEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text=">" />
+
+    </LinearLayout>
+
+          <ImageView
+          android:id="@+id/imageView2"
+          android:layout_width="fill_parent"
+          android:layout_height="2dp"
+          android:background="@color/TitleProgramNUA" />
+    
+    <ListView
+        android:id="@+id/Diary_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+          android:divider="#0f3272"
+          android:dividerHeight="2dp"
+          android:footerDividersEnabled="true"
+          android:headerDividersEnabled="true"
+          android:listSelector="@drawable/listselector" >
+          
+    </ListView>
+    
+          <ImageView
+          android:id="@+id/imageView3"
+          android:layout_width="fill_parent"
+          android:layout_height="2dp"
+          android:background="@color/TitleProgramNUA" />
+
+</LinearLayout>

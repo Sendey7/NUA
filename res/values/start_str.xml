@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="start_menu">
+    <item>Новости</item>
+    <item>Учителя</item>
+    <item>Дневник</item>
+  </string-array>
+</resources>
